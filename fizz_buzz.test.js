@@ -14,3 +14,8 @@ test('5 convert to buzz' , () => {
 test('15 convert to fizz_buzz' , () => {
   expect(fizz_buzz(15)).toBe('fizz_buzz');
 });
+
+// else
+test('2 convert to 2' , () => {
+  expect(fizz_buzz(2)).toBe(2);
+});
